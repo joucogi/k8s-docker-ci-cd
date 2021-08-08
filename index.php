@@ -1,3 +1,3 @@
 <?php
 
-echo "Example DockerHub and GitHub integration. by Joucogi";
+echo "Example DockerHub and GitHub integration with Deployment. by Joucogi";
