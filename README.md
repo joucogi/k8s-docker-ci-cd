@@ -18,6 +18,7 @@
 - Create a cluster user: ```clusterUser=obehotel```
 - Create kube config: ```k0s kubeconfig create --groups "system:masters" $clusterUser > ~/.kube/config```
 - Start cluster role: ```kubectl create clusterrolebinding $clusterUser-admin-binding --clusterrole=admin --user=$clusterUser```
+
 ## Configure CI/CD
 > https://www.youtube.com/watch?v=MNBf-ylhtK0
 
